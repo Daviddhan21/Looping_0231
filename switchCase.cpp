@@ -22,7 +22,8 @@ void input() {
 // prosedur untuk pengecekan kondisi
 // proses pemilihan jurusan menggunakan switch case
 void pilihanJurusan() {
-    switch (kodeJurusan) {
+
+    switch (kodeJurusan) { 
         case 1:
             namaJurusan = "Teknologi Informasi";
             statusKuota = "Tersedia (15 Kursi)";
@@ -47,6 +48,7 @@ void pilihanJurusan() {
 
 // prosedur output
 // menampilkan hasil seleksi jurusan
+
 void output() {
     cout << "\n=== HASIL SELEKSI JURUSAN ===" << endl;
     cout << "Jurusan Pilihan : " << namaJurusan << endl;
