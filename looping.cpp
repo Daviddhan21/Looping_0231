@@ -12,6 +12,8 @@ int main(){
     }
     cout<<endl;
 
+    // commit 2
+
     // untuk mendapatkan urutan angka acak yang berbeda
     srand(time(0));
 
