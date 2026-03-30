@@ -56,7 +56,7 @@ void output() {
     cout << "-----------------------------------" << endl;
 }
 
-int main() {
+int main() { // fungsi utama program
     input();
     pilihanJurusan();
     output();
