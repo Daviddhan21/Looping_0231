@@ -39,6 +39,7 @@ void pilihanJurusan() {
             break;
 
         default:
+        // kondisi jika kode jurusan tidak valid
             namaJurusan = "Tidak Diketahui";
             statusKuota = "Error: Kode Tidak Valid";
     }
