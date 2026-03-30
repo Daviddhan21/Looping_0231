@@ -22,7 +22,7 @@ void input() {
 // prosedur untuk pengecekan kondisi
 // proses pemilihan jurusan menggunakan switch case
 void pilihanJurusan() {
-
+    // memilih jurusan berdasarkan kode yang diinputkan user
     switch (kodeJurusan) { 
         case 1:
             namaJurusan = "Teknologi Informasi";
