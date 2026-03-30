@@ -61,5 +61,7 @@ int main() { // fungsi utama program
     pilihanJurusan();
     output();
 
+    // program selesai dijalankan
+    
     return 0;
 }
